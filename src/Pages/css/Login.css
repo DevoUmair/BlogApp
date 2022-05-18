@@ -1,0 +1,27 @@
+.loginPage{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.553)),url(https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60);
+    background-position: center;
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.loginPage p{
+    color: #fff;
+    font-weight: 600;
+}
+
+body{
+ height: 100%;
+}
+
+@media screen and (max-width:470px){
+    .loginPage p{
+        text-align: center;
+        font-size: 25px;
+    }
+    .login-with-google-btn {
+        font-size: 15px;
+      }
+}
